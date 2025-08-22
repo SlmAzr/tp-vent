@@ -100,11 +100,6 @@
                             @endforelse
                         </tbody>
                     </table>
-
-                    {{-- Pagination si nécessaire --}}
-                    {{-- <div class="mt-4">
-                        {{ $events->links() }}
-                    </div> --}}
                 </div>
             </div>
         </div>
