@@ -1,8 +1,8 @@
 Si un user admin n'est pas présent faire : 
 
- php artisan tinker 
+ >php artisan tinker 
 
-use App\Models\User;
+> use App\Models\User;
 
 if (!User::role('admin')->exists()) {
     $admin = User::create([
